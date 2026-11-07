@@ -2,6 +2,8 @@
 
 **AI Builder · automações com n8n e agentes LLM · fundadora do GradMent**
 
+🌐 **Portfólio:** [catarina051.github.io](https://catarina051.github.io) · o GradMent e os projetos de IA, com cada número e onde conferir.
+
 Estudante de Engenharia de Computação no CEFET-MG (formatura prevista em dezembro de 2028). Construo automações e sistemas com IA a partir de um problema real e meço o resultado: cada projeto abaixo tem um número e um jeito de conferir.
 
 ## Para quem avalia em 5 minutos
@@ -72,5 +74,6 @@ Português nativo; inglês intermediário, focado em leitura e escrita técnica.
 
 ## Vamos conversar
 
+- [Portfólio](https://catarina051.github.io)
 - [LinkedIn](https://www.linkedin.com/in/catarina-rodrigues-gon%C3%A7alves-b42011297)
 - [E-mail](mailto:catarina.goncalves051@gmail.com)
