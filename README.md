@@ -35,7 +35,7 @@ Planejador de grade curricular em uso por estudantes do CEFET-MG, que avisa quan
 
 ## Como eu trabalho com IA
 
-Eu decido o escopo e o método; a IA executa; outras IAs me criticam; e cada repositório tem um `DIARIO.md` que separa o que foi decisão minha do que foi da IA, inclusive onde ela errou.
+Eu decido o escopo e o método; a IA executa; outras IAs me criticam. O [Termômetro do Semestre](https://github.com/catarina051/termometro-semestre) tem um [`DIARIO.md`](https://github.com/catarina051/termometro-semestre/blob/main/DIARIO.md) que separa o que foi decisão minha do que foi da IA, inclusive onde ela errou.
 
 ## Mais projetos
 
