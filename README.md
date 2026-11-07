@@ -21,7 +21,7 @@ Do certificado ao PDF para o SIGAA, com classificação por IA e cálculo de hor
 **Menos de 2 minutos por certificado, contra 21 min 49 s à mão; categoria correta em 5 de 5 certificados (amostra pequena, testes da autora).**
 `n8n` · `Gemini` · `Docker` · `Python` · `Tesseract`
 
-### GradMent
+### [GradMent](https://github.com/catarina051/gradment)
 Planejador de grade curricular em uso por estudantes do CEFET-MG, que avisa quando uma reprovação vai atrasar a formatura. Sou fundadora e gerente de produto, e desenvolvo o front em React e TypeScript e a integração com a API.
 **72 alunos cadastrados e 40 com histórico enviado (contagem do banco de produção em 07/11/2026).**
 `Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `CodeIgniter 4`
