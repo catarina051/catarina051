@@ -6,7 +6,7 @@ Estudante de Engenharia de Computação no CEFET-MG (formatura prevista em dezem
 
 ## Projetos em destaque
 
-### [Termômetro do Semestre](https://github.com/catarina051/termometro-semestre)
+### [Termômetro do Semestre](https://github.com/catarina051/termometro-semestre) · [site](https://termometro-psi.vercel.app)
 Dados abertos da UFRN (2015 a 2019) sobre reprovação e desistência no ciclo básico. Um modelo de linguagem só explica números já calculados; ele nunca calcula.
 **82.690 matrículas analisadas; 9 das 12 combinações de disciplinas que pareciam perigosas eram alunos atrasados repetindo uma delas.**
 `Python` · `DuckDB` · `Gemini` · `validação por divisão de alunos`
