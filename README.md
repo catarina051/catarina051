@@ -1,103 +1,62 @@
-# Hi, I'm Catarina Rodrigues Gonçalves
+# Catarina Rodrigues Gonçalves
 
-**Computer Engineering student at CEFET-MG · Founder of GradMent · Data and Software Engineering**
+**AI Builder · automações com n8n e agentes LLM · fundadora do GradMent**
 
-I build digital products and data systems from problem discovery to production. My work
-combines product thinking, hands-on engineering, team leadership, and a strong concern for
-data quality, accessibility, privacy, and maintainability.
+Estudante de Engenharia de Computação no CEFET-MG (formatura prevista em dezembro de 2028). Construo automações e sistemas com IA a partir de um problema real e meço o resultado: cada projeto abaixo tem um número e um jeito de conferir.
 
-Expected graduation: **December 2028**.
+## Projetos em destaque
 
-## Experience and impact
+### [Termômetro do Semestre](https://github.com/catarina051/termometro-semestre)
+Dados abertos da UFRN (2015 a 2019) sobre reprovação e desistência no ciclo básico. Um modelo de linguagem só explica números já calculados; ele nunca calcula.
+**82.690 matrículas analisadas; 9 das 12 combinações de disciplinas que pareciam perigosas eram alunos atrasados repetindo uma delas.**
+`Python` · `DuckDB` · `Gemini` · `validação por divisão de alunos`
 
-- **Founder, Project Manager, and Developer at GradMent** — I lead a five-person team and
-  helped take an academic planning platform from user research to production in five
-  sprints. I prioritize the backlog, facilitate the team's delivery process, develop the
-  React/TypeScript frontend, and work on REST API integration.
-- **FAPEMIG Research Scholar on FilaZero** — I interviewed primary-care professionals,
-  modeled the appointment flow in BPMN, proposed a feature-first Clean Architecture, and
-  develop the multiplatform Flutter application with accessibility built into its design
-  system.
-- **Full-Stack Developer at Zé do Lead** — I implemented PHP endpoints and business rules
-  and developed React integrations with Google and Meta APIs to consolidate social-media
-  metrics in one dashboard.
-- **Academic research and recognition** — first author of two papers at MOCITEC MG 2026
-  and fourth place in the multi-university Pif Paf Hackathon.
+### [PPC → GradMent](https://github.com/catarina051/ppc-gradment-ia)
+Workflow n8n de 42 nós com três LLMs de provedores diferentes (extratora, auditora e juíza) que transforma o PPC de qualquer universidade na matriz curricular do GradMent.
+**A juíza acerta 92,5% das divergências quando é um modelo diferente e 66,2% quando é o mesmo; 99 de 99 disciplinas encontradas no PPC real.**
+`n8n` · `Gemini` · `OpenRouter` · `Groq` · `JSON Schema` · `prompt engineering`
 
-## Featured projects
+### [Horas Complementares com IA](https://github.com/catarina051/horas-complementares-ia)
+Do certificado ao PDF para o SIGAA, com classificação por IA e cálculo de horas rastreável, em piloto numa VM da AWS.
+**Menos de 2 minutos por certificado, contra 21 min 49 s à mão; categoria correta em 5 de 5 certificados (amostra pequena, testes da autora).**
+`n8n` · `Gemini` · `Docker` · `Python` · `Tesseract`
 
-### GradMent — Collaborative Academic Planning Platform
+### GradMent
+Planejador de grade curricular em uso por estudantes do CEFET-MG, que avisa quando uma reprovação vai atrasar a formatura. Sou fundadora e gerente de produto, e desenvolvo o front em React e TypeScript e a integração com a API.
+**72 alunos cadastrados e 40 com histórico enviado (contagem do banco de produção em 07/11/2026).**
+`Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `CodeIgniter 4`
 
-A product in use by CEFET-MG students. I work across product discovery, project leadership,
-frontend development, API integration, and privacy-aware data modeling. Only aggregated
-academic indicators are published, following an LGPD-conscious approach.
+## Experiência
 
-`Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `CodeIgniter 4` · `REST APIs`
+- **Fundadora, gerente de produto e desenvolvedora no GradMent**: levei uma plataforma de planejamento acadêmico da pesquisa com usuários à produção em cinco sprints, priorizo o backlog e desenvolvo o front e a integração com a API REST.
+- **Bolsista FAPEMIG no FilaZero**: entrevistei profissionais da atenção primária, modelei o fluxo de atendimento em BPMN, propus uma Clean Architecture por funcionalidade e desenvolvo o aplicativo Flutter multiplataforma com acessibilidade no design system.
+- **Desenvolvedora full-stack na Zé do Lead**: implementei endpoints PHP e regras de negócio e integrações React com as APIs do Google e da Meta para consolidar métricas de redes sociais num painel.
+- **Pesquisa e reconhecimento**: primeira autora de dois artigos no MOCITEC MG 2026 e quarto lugar no Hackathon Pif Paf, entre várias universidades.
 
-### [GradMent Data Platform](https://github.com/catarina051/gradment-data-platform)
+## Como eu trabalho com IA
 
-An end-to-end Data and Analytics Engineering platform for GradMent, published through a
-safe synthetic-data lane. It covers event tracking, Airflow/dbt ELT, a PostgreSQL star
-schema, Metabase dashboards, data contracts, quality tests, lineage, and CI/CD.
+Eu decido o escopo e o método; a IA executa; outras IAs me criticam; e cada repositório tem um `DIARIO.md` que separa o que foi decisão minha do que foi da IA, inclusive onde ela errou.
 
-`Python` · `SQL` · `Apache Airflow` · `dbt` · `PostgreSQL` · `Metabase` · `Docker`
+## Mais projetos
 
-### FilaZero — Prioritization of Public Healthcare Service Queues
+- [GradMent Data Platform](https://github.com/catarina051/gradment-data-platform): plataforma de dados ponta a ponta (Airflow, dbt, PostgreSQL, Metabase) com uma lane sintética pública.
+- **FilaZero**: pesquisa financiada pela FAPEMIG, em Flutter, com acessibilidade (eMAG 3.1, WCAG 2.1).
+- [Skillcord](https://github.com/catarina051/skillcord): protótipo de runtime local para configurar agentes de código de forma reproduzível.
+- [C++ Dungeon Crawler](https://github.com/catarina051/cpp-dungeon-crawler): jogo em C++17 e SFML.
 
-A FAPEMIG-funded research project for Android, iOS, and Web. My work includes requirements
-discovery, BPMN process modeling, Flutter development, Clean Architecture, and accessible
-high-fidelity prototypes aligned with eMAG 3.1, WCAG 2.1, and the Brazilian Government
-Design System.
+## Ferramentas
 
-`Flutter` · `Dart` · `Riverpod` · `Clean Architecture` · `Figma` · `Accessibility`
-
-### [Skillcord](https://github.com/catarina051/skillcord)
-
-A local-first AI development runtime prototype for reproducible coding-agent
-configuration. It explores deterministic provider discovery, capability overlap
-resolution, content locking, safe managed-file synchronization, audit history, and
-machine-readable runtime health checks.
-
-`Python` · `Pydantic` · `Jinja2` · `pytest` · `Ruff` · `mypy`
-
-### [C++ Dungeon Crawler](https://github.com/catarina051/cpp-dungeon-crawler)
-
-A finished top-down game built with C++17 and SFML. It includes continuous movement,
-collision handling, room progression, enemy AI, projectile systems, rewards, and a
-complete game-state flow.
-
-`C++17` · `SFML` · `CMake` · `Algorithms` · `Object-oriented design`
-
-## Technical toolkit
-
-| Area | Technologies and practices |
+| Área | Tecnologias e práticas |
 | --- | --- |
-| Languages | TypeScript, JavaScript, Python, SQL, C++, Dart, PHP |
-| Frontend and Mobile | React, Next.js, Flutter, Riverpod, Tailwind CSS |
-| Backend and Data | REST APIs, CodeIgniter 4, PostgreSQL, Airflow, dbt, SQLAlchemy, dimensional modeling |
-| Engineering | Clean Architecture, Docker, GitHub Actions, Linux, pytest, Ruff, mypy, CMake |
-| Product and Design | User research, BPMN, Figma, Jira, Scrum, eMAG 3.1, WCAG 2.1 |
+| IA e automação | n8n, Gemini, OpenRouter, Groq, engenharia de prompts, JSON Schema, avaliação contra gabarito |
+| Linguagens | TypeScript, JavaScript, Python, SQL, C++, Dart, PHP |
+| Front-end e mobile | React, Next.js, Flutter, Tailwind CSS |
+| Back-end e dados | APIs REST, CodeIgniter 4, PostgreSQL, DuckDB, Airflow, dbt |
+| Engenharia | Docker, GitHub Actions, pytest, Ruff, mypy, Clean Architecture |
 
-I am a native Portuguese speaker with intermediate English focused on technical reading
-and writing.
+Português nativo; inglês intermediário, focado em leitura e escrita técnica.
 
-## Academic foundations
-
-My coursework and academic projects include competitive programming, graph algorithms,
-data structures, computer architecture, shortest path and maximum flow algorithms, and a
-single-cycle MIPS processor designed in Verilog HDL.
-
-## Current focus
-
-I am continuing to deepen my experience in Data Engineering, analytics infrastructure,
-backend systems, and reliable product development. I am open to internship and entry-level
-opportunities where I can contribute, learn from an experienced team, and help deliver
-dependable products.
-
-## Let's connect
+## Vamos conversar
 
 - [LinkedIn](https://www.linkedin.com/in/catarina-rodrigues-gon%C3%A7alves-b42011297)
-- [Email](mailto:catarina.goncalves051@gmail.com)
-
-Explore my repositories to see the architecture, trade-offs, tests, and documentation
-behind each project.
+- [E-mail](mailto:catarina.goncalves051@gmail.com)
