@@ -4,6 +4,21 @@
 
 Estudante de Engenharia de Computação no CEFET-MG (formatura prevista em dezembro de 2028). Construo automações e sistemas com IA a partir de um problema real e meço o resultado: cada projeto abaixo tem um número e um jeito de conferir.
 
+## Para quem avalia em 5 minutos
+
+| O que você procura | Onde ver | O que conferir |
+| --- | --- | --- |
+| Automação que economiza horas | [Horas Complementares](https://github.com/catarina051/horas-complementares-ia) · [vídeo](https://lnkd.in/p/dp4rEizz) | 21 min 49 s → menos de 2 min por certificado, em piloto na AWS |
+| Orquestração de vários LLMs | [PPC → GradMent](https://github.com/catarina051/ppc-gradment-ia) | Extratora, auditora e juíza em Gemini, GPT-OSS e Groq, com fallback; juíza a 92,5% em modelo diferente |
+| Automação com n8n | Os dois acima | Workflows de 35 e 42 nós, gerados por script e com Code nodes testados |
+| Prompt engineering | [prompts do PPC](https://github.com/catarina051/ppc-gradment-ia/tree/main/prompts) · [prompt v2 das horas](https://github.com/catarina051/horas-complementares-ia/blob/main/prompts/classificacao/v2.md) | JSON Schema estrito, defesa contra *prompt injection*, versões com histórico |
+| Dashboard funcionando | [gradment.vercel.app](https://gradment.vercel.app) · [termometro-psi.vercel.app](https://termometro-psi.vercel.app) | Dados lidos por URL dos repositórios, números conferidos contra o JSON |
+| Vibe coding | [dashboard do PPC](https://github.com/catarina051/ppc-gradment-dashboard) · [app do Termômetro](https://github.com/catarina051/termometro-semestre-app) | v0 + Claude Code, prompts exatos e quem fez o quê |
+| API sem backend próprio | `POST /webhook/converter-ppc` (n8n) · `/api/explicar` (Next.js) | JSON pronto para a API do GradMent, sem mudar o backend PHP |
+| Análise de dados com IA | [Termômetro do Semestre](https://github.com/catarina051/termometro-semestre) | 82.690 matrículas, validação por divisão de alunos, LLM que só explica |
+
+**Sobre as datas.** O GradMent existe desde o primeiro semestre de 2026. Os projetos de IA em volta dele foram construídos em sprints curtos em nov/2026: Horas Complementares em 5 dias, PPC → GradMent e o dashboard em 1 dia, Termômetro em 1 dia. O histórico de commits de cada repositório mostra isso, e o `DIARIO.md` dos três projetos de IA conta como foi.
+
 ## Projetos em destaque
 
 ### [Termômetro do Semestre](https://github.com/catarina051/termometro-semestre) · [site](https://termometro-psi.vercel.app)
@@ -11,7 +26,7 @@ Dados abertos da UFRN (2015 a 2019) sobre reprovação e desistência no ciclo b
 **82.690 matrículas analisadas; 9 das 12 combinações de disciplinas que pareciam perigosas eram alunos atrasados repetindo uma delas.**
 `Python` · `DuckDB` · `Gemini` · `validação por divisão de alunos`
 
-### [PPC → GradMent](https://github.com/catarina051/ppc-gradment-ia)
+### [PPC → GradMent](https://github.com/catarina051/ppc-gradment-ia) · [execução em GIF](https://github.com/catarina051/ppc-gradment-ia#demo)
 Workflow n8n de 42 nós com três LLMs de provedores diferentes (extratora, auditora e juíza) que transforma o PPC de qualquer universidade na matriz curricular do GradMent.
 **A juíza acerta 92,5% das divergências quando é um modelo diferente e 66,2% quando é o mesmo; 99 de 99 disciplinas encontradas no PPC real.**
 `n8n` · `Gemini` · `OpenRouter` · `Groq` · `JSON Schema` · `prompt engineering`
@@ -39,7 +54,6 @@ Eu decido o escopo e o método; a IA executa; outras IAs me criticam. Os três p
 
 ## Mais projetos
 
-- [GradMent Data Platform](https://github.com/catarina051/gradment-data-platform): plataforma de dados ponta a ponta (Airflow, dbt, PostgreSQL, Metabase) com uma lane sintética pública.
 - **FilaZero**: pesquisa financiada pela FAPEMIG, em Flutter, com acessibilidade (eMAG 3.1, WCAG 2.1).
 - [Skillcord](https://github.com/catarina051/skillcord): protótipo de runtime local para configurar agentes de código de forma reproduzível.
 - [C++ Dungeon Crawler](https://github.com/catarina051/cpp-dungeon-crawler): jogo em C++17 e SFML.
